@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 19/08/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: KISHORE KUMAR U
+###  ROLL NO :212222233003
+###  DEPARTMENT: AIDS
 
 
 
@@ -86,14 +86,20 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
-
+while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	 }
 
 
 
 
 ## OUTPUT  :
  
- 
+ ![image](https://github.com/user-attachments/assets/20d5097c-8e94-49de-a97d-bef8dfcd6532)
+
  
  
 ## Result :
